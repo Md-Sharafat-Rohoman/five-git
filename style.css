@@ -10,11 +10,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 50px;
 }
 .mary{
     color: #181818;
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 700;
 
 }
 .r{
@@ -40,7 +41,60 @@ nav a{
     border-radius: 5px;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 10px 20px;
 }
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position:bottom right ;
+}
+.paragraph{
+    font-size: 10px;
+    margin-top: 5px ;
+}
+.div1{
+    display: flex;
+    padding:20px 20px 0px 50px ;
+    align-items: center;
+justify-content: space-between;
+  
+}
+.profile{
+    width:250px;
+}
+.size{
+    margin-bottom: 0px;
+}
+.maryhardy{
+    font-weight: 800px;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.banner{
+    max-width: 400px;
+}
+/* main section styles */
+
+.about{
+    padding: 130px;
+    background-color:#FFF8F3;
+    text-align: center;
+    margin: 100px 20px 50px 20px;
+
+}
+
+.aboutme{
+text-align: center;
+
+}
+
+.ppp{
+color: rgb(36, 38, 38);
+}
+
